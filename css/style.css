@@ -1,7 +1,30 @@
-h1 {
-  color: blue; }
+.litle-title-style {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center; }
+  .litle-title-style h2 {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 3.5vw;
+    color: #1C1C1C; }
+  .litle-title-style .underline {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    height: 4px;
+    background-color: #819C4C;
+    border-color: #819C4C;
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 40px; }
 
-header {
-  color: blue; }
+body {
+  margin: 0; }
+
+article {
+  display: flex;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
