@@ -70,4 +70,19 @@ body {
     width: 30%;
     margin-bottom: 40px; }
 
+#trigger-overlay {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+  z-index: 2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #819C4C;
+  color: white;
+  transition: box-shadow 0.1s; }
+  #trigger-overlay:focus {
+    outline-style: none;
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.2); }
+
 /*# sourceMappingURL=style.css.map */
