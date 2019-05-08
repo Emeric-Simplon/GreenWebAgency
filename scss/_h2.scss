@@ -1,14 +1,15 @@
 .litle-title-style {
-width: 100%;
+  width: 100%;
   margin: auto;
   flex-direction: column;
   justify-content: center;
   h2 {
-      text-align: center;
+    text-align: center;
     width: 40%;
     margin: auto;
     font-size: 3.5vw;
     color: $h2Color;
+    text-transform: uppercase;
   }
   .underline {
     margin: auto;
