@@ -3,6 +3,9 @@
 		triggerBttn = document.getElementById( 'trigger-overlay' ),
 		overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
+	var	aButton = document.querySelector('ul');
+	
+		console.log(aButton);
 		transEndEventNames = {
 			'WebkitTransition': 'webkitTransitionEnd',
 			'MozTransition': 'transitionend',
@@ -37,7 +40,7 @@
 			classie.add( container, 'overlay-open' );
 		}
 	}
-
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
+	aButton.addEventListener( 'click', toggleOverlay);
 })();

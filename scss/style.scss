@@ -2,6 +2,9 @@
   font-family: "EuropeanTypewriter";
   src: url(../medias/fonts/EuropeanTypewriter.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "EuropeanTypewriter";

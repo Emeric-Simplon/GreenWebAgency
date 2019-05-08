@@ -1,6 +1,9 @@
 @font-face {
   font-family: "EuropeanTypewriter";
   src: url(../medias/fonts/EuropeanTypewriter.ttf); }
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   font-family: "EuropeanTypewriter"; }
@@ -63,10 +66,9 @@ body {
     margin: auto;
     margin-top: 20px;
     display: block;
-    height: 4px;
-    background-color: #819C4C;
-    border-color: #819C4C;
-    border-radius: 50%;
+    border-color: #819C4C !important;
+    border: solid 1px;
+    border-radius: 90%;
     width: 30%;
     margin-bottom: 40px; }
 
@@ -84,5 +86,8 @@ body {
   #trigger-overlay:focus {
     outline-style: none;
     box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.2); }
+    #myVideo {
+      position: absolute;
+    }
 
 /*# sourceMappingURL=style.css.map */

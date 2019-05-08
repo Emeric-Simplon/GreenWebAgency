@@ -17,14 +17,16 @@
   <body>
     <button id="trigger-overlay" type="button">Menu</button>
     <div class="overlay overlay-contentscale">
+        <video autoplay muted loop id="myVideo">
+            <source src="medias/videos/Flower Life.mp4" type="video/mp4">
+          </video>
       <button type="button" class="overlay-close">Close</button>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">PortFolio</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">FAQ/Contact</a></li>
+          <li class="menu-link"><a href="#skills">Skills</a></li>
+          <li class="menu-link"><a href="#portfolio">PortFolio</a></li>
+          <li class="menu-link"><a href="#team">Team</a></li>
+          <li class="menu-link"><a href="#faq">FAQ/Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -106,7 +108,7 @@
           <div class="member-card">
             <img src="medias/images/sample.jpg" alt="" />
             <div class="identity">
-              <h3>Dévris</h3>
+              <h3>Dévrice</h3>
               <span>Développeur</span>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.

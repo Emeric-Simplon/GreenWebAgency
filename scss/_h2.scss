@@ -17,10 +17,9 @@
     margin: auto;
     margin-top: 20px;
     display: block;
-    height: 4px;
-    background-color: $primaryColor;
-    border-color: $primaryColor;
-    border-radius: 50%;
+    border-color: $primaryColor!important;
+    border: solid 1px;
+    border-radius: 90%;
     width: 30%;
     margin-bottom: 40px;
   }
