@@ -3,10 +3,12 @@
   margin: auto;
   flex-direction: column;
   justify-content: center;
+  margin-top: 0px !important;
   h2 {
     text-align: center;
     width: 40%;
     margin: auto;
+
     font-size: 3.5vw;
     color: $h2Color;
     text-transform: uppercase;

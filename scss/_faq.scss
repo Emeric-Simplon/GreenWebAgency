@@ -1,0 +1,11 @@
+#faq {
+  display: flex;
+  #container-question-card {
+    flex-direction: column;
+    .question-card {
+      flex-direction: column;
+      width: 70%;
+      margin: auto;
+    }
+  }
+}

@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "EuropeanTypewriter";
+  src: url(../medias/fonts/EuropeanTypewriter.ttf); }
+body {
+  margin: 0;
+  font-family: "EuropeanTypewriter"; }
+
+#faq {
+  display: flex; }
+  #faq #container-question-card {
+    flex-direction: column; }
+    #faq #container-question-card .question-card {
+      flex-direction: column;
+      width: 70%;
+      margin: auto; }
+
 #team {
   margin: 3vw; }
   #team .container-team {
@@ -9,10 +25,10 @@
       transform: scale(1) translate(0px, 0px);
       transition: all 200ms ease;
       border-radius: 1%;
-      box-shadow: 0px 11px 20px -9px rgba(0, 50, 50, 0); }
+      box-shadow: -15px 11px 20px -9px rgba(0, 50, 50, 0); }
       #team .container-team .member-card:hover {
-        transform: scale(1.1) translate(0px, -40px);
-        box-shadow: 0px 20px 20px -9px #003232; }
+        transform: scale(1.1) translate(20px, -40px);
+        box-shadow: -15px 20px 20px -9px #003232; }
       #team .container-team .member-card img {
         display: inherit;
         width: 13vw;
@@ -34,7 +50,8 @@
   width: 100%;
   margin: auto;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 0px !important; }
   .litle-title-style h2 {
     text-align: center;
     width: 40%;
@@ -52,12 +69,5 @@
     border-radius: 50%;
     width: 30%;
     margin-bottom: 40px; }
-
-@font-face {
-  font-family: "EuropeanTypewriter";
-  src: url(../medias/fonts/EuropeanTypewriter.ttf); }
-body {
-  margin: 0;
-  font-family: "EuropeanTypewriter"; }
 
 /*# sourceMappingURL=style.css.map */

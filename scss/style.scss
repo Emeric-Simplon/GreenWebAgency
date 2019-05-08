@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "EuropeanTypewriter";
+  src: url(../medias/fonts/EuropeanTypewriter.ttf);
+}
+body {
+  margin: 0;
+  font-family: "EuropeanTypewriter";
+}
 @import "variable";
 @import "buttons";
 @import "contact";
@@ -9,11 +17,4 @@
 @import "skills";
 @import "team";
 @import "h2";
-@font-face {
-  font-family: "EuropeanTypewriter";
-  src: url(../medias/fonts/EuropeanTypewriter.ttf);
-}
-body {
-  margin: 0;
-  font-family: "EuropeanTypewriter";
-}
+@import "form";
